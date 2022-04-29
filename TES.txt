@@ -1,0 +1,76 @@
+python3.6 tc.py --mode exportLog --entity_type DEVICE --entity_id 08021b20-d1bd-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format CSV
+
+
+data_eastron_active_up_01_float1,data_eastron_active_up_01_float2,data_eastron_active_up_01_float3,data_eastron_active_up_02_float1,data_eastron_active_up_02_float2,data_eastron_active_up_02_float3,data_eastron_active_up_03_float1,data_eastron_active_up_03_float2,data_eastron_active_up_03_float3,data_eastron_active_up_04_float1,data_eastron_active_up_04_float2,data_eastron_active_up_04_float3,data_eastron_active_up_05_float1,data_eastron_active_up_05_float2,data_eastron_active_up_05_float3
+
+6d1c8460-cd73-11ea-b638-63eac3a88f1e
+
+1595451600000
+
+1599512400000
+
+
+
+tc.py --mode exportLog --entity_type DEVICE --entity_id 6d1c8460-cd73-11ea-b638-63eac3a88f1e --keyList data_eastron_active_up_01_float1,data_eastron_active_up_01_float2,data_eastron_active_up_01_float3,data_eastron_active_up_02_float1,data_eastron_active_up_02_float2,data_eastron_active_up_02_float3,data_eastron_active_up_03_float1,data_eastron_active_up_03_float2,data_eastron_active_up_03_float3,data_eastron_active_up_04_float1,data_eastron_active_up_04_float2,data_eastron_active_up_04_float3,data_eastron_active_up_05_float1,data_eastron_active_up_05_float2,data_eastron_active_up_05_float3 --startTs 1595451600000 --endTs 1599512400000 --interval 1200 --isTelemetry 1 --limit 100000 --agg AVG --format CSV
+
+tc.py --mode exportLog --entity_type DEVICE --entity_id fe2059b0-e6ee-11eb-a191-23131f024a10 --keyList data_bovemeterunitconsumption1,data_valve_state,data_batt_voltage_state,data_meter_battery_alarm,data_empty_pipe_error,data_reverse_flow,data_over_range,data_temp_error,data_ee_error,data_transduce_in_error,data_transduce_out_error,data_lorawan_battery --startTs 1626555600000 --endTs 1628802000000 --interval 1200 --isTelemetry 1 --limit 100000 --agg AVG --format XLSX
+
+tc.py --mode exportLog --entity_type DEVICE --entity_id 7d096f30-0052-11ea-8260-a322c534b573 --keyList data_cumulative_flow,data_meterunixtime,data_servertime,data_temperature --startTs 1586638800000 --endTs 1613077200000 --interval 1200 --isTelemetry 1 --limit 100000 --agg AVG --format XLSX
+
+tc.py --mode exportLog --entity_type DEVICE --entity_id 48bdfbb0-0052-11ea-8260-a322c534b573 --keyList data_cumulative_flow,data_meterunixtime,data_servertime,data_temperature --startTs 1586638800000 --endTs 1613077200000 --interval 1200 --isTelemetry 1 --limit 100000 --agg AVG --format XLSX
+
+48bdfbb0-0052-11ea-8260-a322c534b573
+
+data_cumulative_flow,data_meterunixtime,data_servertime,data_temperature
+
+
+2021-02-10 02:02:50	data_cumulative_flow	
+256.60228
+2021-02-10 02:02:50	data_meterunixtime	
+2021-02-10 02:02:50	data_servertime	
+2021-02-09 23:02:50
+2021-02-10 02:02:50	data_temperature	
+19
+
+
+2021-08-12 21:31:47	data_ee_error	
+
+2021-08-12 21:31:47	data_empty_pipe_error	
+
+2021-08-12 21:31:47	data_factor	
+44
+2021-08-12 21:31:47	data_lorawan_battery	
+596
+2021-08-12 21:31:47	data_meter_battery_alarm	
+0
+2021-08-12 21:31:47	data_over_range	
+0
+2021-08-12 21:31:47	data_reverse_flow	
+0
+2021-08-12 21:31:47	data_temp_error	
+0
+2021-08-12 21:31:47	data_transduce_in_error	
+0
+2021-08-12 21:31:47	data_transduce_out_error	
+0
+2021-08-12 21:31:47	data_valve_state
+
+ return  {
+      ,
+            ,data_valve_state,data_batt_voltage_state,data_meter_battery_alarm,data_empty_pipe_error,data_reverse_flow,data_over_range,data_temp_error,data_ee_error,data_transduce_in_error,data_transduce_out_error,data_lorawan_battery
+
+tc.py --mode exportLog --entity_type DEVICE --entity_id 6d1c8460-cd73-11ea-b638-63eac3a88f1e --keyList data_eastron_active_up_01_float1,data_eastron_active_up_01_float2,data_eastron_active_up_01_float3,data_eastron_active_up_02_float1,data_eastron_active_up_02_float2,data_eastron_active_up_02_float3,data_eastron_active_up_03_float1,data_eastron_active_up_03_float2,data_eastron_active_up_03_float3,data_eastron_active_up_04_float1,data_eastron_active_up_04_float2,data_eastron_active_up_04_float3,data_eastron_active_up_05_float1,data_eastron_active_up_05_float2,data_eastron_active_up_05_float3 --startTs 1595451600000 --endTs 1599512400000 --isTelemetry 1 --limit 100000 --agg AVG --format CSV
+
+
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
+
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id 08021b20-d1bd-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format CSV
+
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
+
+
+============================================================================================
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1542072600000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1542072600000 --endTs 1542677400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1542677400000 --endTs 1543282200000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
+.\tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1543282200000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
